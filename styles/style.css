@@ -70,7 +70,7 @@ blockquote {
     list-style-type: none;
 }
 
-.header__menu-item_active header__menu-link{
+.header__menu-item_active header__menu-link {
     text-decoration: none;
 }
 
@@ -100,7 +100,6 @@ blockquote {
 
 .accent-span {
     display: block;
-
 }
 
 .text-center {
@@ -115,8 +114,73 @@ blockquote {
     padding: 0 20px 37px;
 }
 
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    font-style: normal;
+    gap: 22px;
+    margin-bottom: 24px;
+}
+
+.intro__title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.intro__date {
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ccc;
+}
+
+.intro__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    line-height: 21.6px;
+}
+
 .reasons {
     padding: 40px 20px;
+}
+
+.content-section__subtitle {
+    font-family: EB Garamond;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115%;
+    margin-bottom: 32px;
+}
+
+.content-section__introduction {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 32px;
+}
+
+.content-section__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content-section__list-item {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.content-section__list-accent {
+    font-weight: 700;
 }
 
 .how-to {
